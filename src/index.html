@@ -4,17 +4,137 @@
 @include('partials/head.html')
 
 <body class="page__body">
-  <div class="site-container">
-    @include('partials/header.html')
-    <main class="main">
-      <picture>
-        <source srcset="img/cover.webp" type="image/webp">
-        <img loading="lazy" src="img/cover.jpg" class="image" width="300" height="300" alt="Обложка канала MaxGraph">
-      </picture>
-    </main>
-    @include('partials/footer.html')
-    <!-- @include('html/h1.html') пример include -->
-  </div>
+    <div class="site-container">
+        @include('partials/header.html')
+        <main class="main">
+            <section class="single-section">
+                <div id="single-book">
+                    <div class="single-page">
+                        <div class="page-card">
+                            <h4 class="page-title">
+                                Заголовок страницы
+                            </h4>
+                            <img src="./img/cat.jpg" alt="фотография кота" class="page-img">
+                            <p class="page-descr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Он
+                                составитель буквоград она города, себя вопроса свой несколько дороге?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-page">
+                        <div class="page-card">
+                            <h4 class="page-title">
+                                Заголовок страницы
+                            </h4>
+                            <p class="page-descr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Он
+                                составитель буквоград она города, себя вопроса свой несколько дороге?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-page">
+                        <div class="page-card">
+                            <h4 class="page-title">
+                                Заголовок страницы
+                            </h4>
+                            <img src="./img/cat-2.jpg" alt="фотография кота" class="page-img">
+                            <p class="page-descr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Он
+                                составитель буквоград она города, себя вопроса свой несколько дороге?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-page">
+                        <div class="page-card">
+                            <h4 class="page-title">
+                                Заголовок страницы
+                            </h4>
+                            <p class="page-descr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Он
+                                составитель буквоград она города, себя вопроса свой несколько дороге?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-page">
+                        <div class="page-card">
+                            <h4 class="page-title">
+                                Заголовок страницы
+                            </h4>
+                            <img src="./img/cat-3.jpg" alt="фотография кота" class="page-img">
+                            <p class="page-descr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Он
+                                составитель буквоград она города, себя вопроса свой несколько дороге?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="pair-section">
+                <div id="pair-book">
+                    <div class="pair-page">
+                        <div class="page-card">
+                            <h4 class="page-title">
+                                Заголовок страницы
+                            </h4>
+                            <img src="./img/cat.jpg" alt="фотография кота" class="page-img">
+                            <p class="page-descr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Он
+                                составитель буквоград она города, себя вопроса свой несколько дороге?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pair-page">
+                        <div class="page-card">
+                            <h4 class="page-title">
+                                Заголовок страницы
+                            </h4>
+                            <p class="page-descr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Он
+                                составитель буквоград она города, себя вопроса свой несколько дороге?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pair-page">
+                        <div class="page-card">
+                            <h4 class="page-title">
+                                Заголовок страницы
+                            </h4>
+                            <img src="./img/cat-2.jpg" alt="фотография кота" class="page-img">
+                            <p class="page-descr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Он
+                                составитель буквоград она города, себя вопроса свой несколько дороге?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pair-page">
+                        <div class="page-card">
+                            <h4 class="page-title">
+                                Заголовок страницы
+                            </h4>
+                            <p class="page-descr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Он
+                                составитель буквоград она города, себя вопроса свой несколько дороге?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pair-page">
+                        <div class="page-card">
+                            <h4 class="page-title">
+                                Заголовок страницы
+                            </h4>
+                            <img src="./img/cat-3.jpg" alt="фотография кота" class="page-img">
+                            <p class="page-descr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Он
+                                составитель буквоград она города, себя вопроса свой несколько дороге?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+        </main>
+        @include('partials/footer.html')
+        <!-- @include('html/h1.html') пример include -->
+    </div>
 </body>
 
 </html>
