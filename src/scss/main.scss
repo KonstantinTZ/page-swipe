@@ -17,22 +17,26 @@
 
 .single-page{
     background: url('../img/paper.png');
+
     .page-card{
-        padding: 10px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        padding: 10px;
     }
+
     .page-title{
         font-size: 35px;
     }
+
     .page-img{
         border-radius: 8px;
         width: 80%;
-        aspect-ratio: 1;
         object-fit: contain;
+        aspect-ratio: 1;
     }
+
     .page-descr{
         font-size: 18px;
     }
